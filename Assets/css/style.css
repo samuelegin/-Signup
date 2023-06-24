@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.img-fit {
+  height: 10rem;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.login-header {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(128, 128, 128, 0.603);
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+}
+
+form {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+input[type="email"] {
+  padding: 0.8rem 1rem;
+  border-radius: 0.8rem;
+  border: none;
+  background: rgba(128, 128, 128, 0.171);
+  width: 13rem;
+}
+
+input[type="password"] {
+  padding: 0.8rem 1rem;
+  border-radius: 0.8rem;
+  border: none;
+  background: rgba(128, 128, 128, 0.171);
+  width: 13rem;
+  margin-top: 1rem;
+  margin-bottom: 0.7rem;
+}
+form a {
+  color: rgba(128, 128, 128, 0.603);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  margin-left: 8rem;
+}
+
+input[type="submit"] {
+  border: none;
+  background: rgb(59, 175, 59);
+  padding: 0.8rem 1rem;
+  width: 15rem;
+  border-radius: 0.8rem;
+  color: white;
+  margin-top: 3rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(128, 128, 128, 0.603);
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+}
